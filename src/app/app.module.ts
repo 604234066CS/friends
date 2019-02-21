@@ -7,15 +7,16 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { FriendrestProvider } from '../providers/friendrest/friendrest';
-import { FriendlistPage } from '../pages/friendlist/friendlist';
 import { HttpClientModule } from '@angular/common/http';
-import { FrienddeteilPage } from '../pages/frienddetail/frienddetail';
+import { FrienddetailPage } from '../pages/frienddetail/frienddetail';
+import { FriendlistPage } from '../pages/friendistl/friendistl';
+
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    FrienddeteilPage,
+    FrienddetailPage,
     FriendlistPage
   ],
   imports: [
@@ -28,7 +29,7 @@ import { FrienddeteilPage } from '../pages/frienddetail/frienddetail';
     MyApp,
     HomePage,
     FriendlistPage,
-    FrienddeteilPage
+    FrienddetailPage
   ],
   providers: [
     StatusBar,

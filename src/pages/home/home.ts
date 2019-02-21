@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { FriendlistPage } from '../friendlist/friendlist';
+import { FriendlistPage } from '../friendistl/friendistl';
+
 
 @Component({
   selector: 'page-home',

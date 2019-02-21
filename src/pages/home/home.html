@@ -7,26 +7,22 @@
 </ion-header>
 
 <ion-content padding>
-    <ion-card>
-        <ion-card-content style="text-align:center;padding:0px" >
+  <ion-card>
+    <ion-card-content style="text-align:center;padding:0px">
 
-              <ion-img width="300" height="200px" src="https://raw.githubusercontent.com/604234053CS/data/master/image.png"></ion-img>
-        </ion-card-content>
-      </ion-card>
-            
+      <ion-img wigth="300" height="200px" src="https://raw.githubusercontent.com/604234066CS/MyFriend/master/friend.png"></ion-img>
 
-            <ion-list>
+    </ion-card-content>
+  </ion-card>
 
-              <ion-item>
-                <ion-icon name="Friend" item-start></ion-icon>
-                ComSci
-                <button ion-button clear icon-only item-end (click)="showFriendList('ComputerScience')">
-                    <ion-icon name="open" ></ion-icon>
-                </button>
-              </ion-item>
-
-             
-            </ion-list>
-
-      
-</ion-content>
+  <ion-content>
+    <ion-list>
+      <ion-item>
+        <ion-icon name="people" item-start></ion-icon>
+        Friends
+        <button ion-button clear icon-only item-end (click)="showFriendList('major')">
+          <ion-icon name="open"></ion-icon>
+        </button>
+      </ion-item>
+    </ion-list>
+  </ion-content>
