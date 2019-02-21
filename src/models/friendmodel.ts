@@ -5,5 +5,5 @@ export interface Friend {
     nickName: string;
     major: string;
     birthday: string;
-    picture: string;
+
   }

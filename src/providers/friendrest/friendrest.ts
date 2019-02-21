@@ -5,11 +5,6 @@ import { Friend } from '../../models/friendmodel';
 
 
 
-/*
-  Generated class for the FriendrestProvider provider.
-  See https://angular.io/guide/dependency-injection for more info on providers
-  and Angular DI.
-*/
 @Injectable()
 export class FriendrestProvider {
 
@@ -22,7 +17,7 @@ export class FriendrestProvider {
     getFriendList():Observable<any>{
       return this.http.get<Friend>(this.url);
     }
-    getFriend(studentId:string):Observable<any>{
+    getFriend(studentID:string):Observable<any>{
       return this.http.get<Friend>(this.url);
     }
 }

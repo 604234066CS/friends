@@ -4,13 +4,6 @@ import { FriendrestProvider } from '../../providers/friendrest/friendrest';
 import { Friend } from '../../models/friendmodel';
 
 
-/**
- * Generated class for the FrienddetailPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-
 @Component({
   selector: 'page-frienddetail',
   templateUrl: 'frienddetail.html',

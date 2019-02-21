@@ -13,8 +13,9 @@ import { Friend } from '../../models/friendmodel';
 })
 export class FriendlistPage {
 
-  major:String;
   friends:Friend;
+  major:String;
+  
 
   constructor(private friendrest: FriendrestProvider ,public navCtrl: NavController, public navParams: NavParams){
   }
